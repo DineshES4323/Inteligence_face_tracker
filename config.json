@@ -1,0 +1,12 @@
+{
+    "video_source":  "data/sample.mp4",
+    "camera_mode":  "video",
+    "frame_skip":  1,
+    "detection_confidence":  0.5,
+    "recognition_threshold":  0.45,
+    "max_missing_frames":  30,
+    "database_path":  "data/visitors_test.db",
+    "log_directory":  "logs",
+    "output_directory":  "output",
+    "display_window":  true
+}

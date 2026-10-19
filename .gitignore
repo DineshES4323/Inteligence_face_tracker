@@ -1,0 +1,40 @@
+﻿venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+config_backup*.json
+config.json.bak
+
+# Local databases and private test data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+backups/
+
+# Generated runtime files
+logs/*
+output/*
+
+# Large downloaded model weights
+*.pt
+*.onnx
+
+# Local video files (do not upload large/private recordings)
+*.mp4
+*.avi
+*.mov
+
+# Python environment
+venv/
+.venv/
+
+# Local backup files
+*.backup
+*_before_matching_fix.py
